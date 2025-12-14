@@ -1,0 +1,90 @@
+========================================
+Functional Dependencies (FDs) — Premium Version
+========================================
+
+Functional dependencies are identified based on the 1NF structure, and they are used later for 2NF and 3NF validation.
+
+Each entity below contains:
+
+Primary Key (PK)
+
+Full list of functional dependencies in proper mathematical notation
+
+========================================
+
+STUDENTS
+========================================
+
+Primary Key:
+StudentID
+
+Functional Dependencies:
+StudentID → FirstName
+StudentID → LastName
+StudentID → DOB
+StudentID → Gender
+StudentID → Address
+StudentID → Phone
+StudentID → Email
+StudentID → EnrollmentYear
+StudentID → Major
+
+========================================
+2) SUBJECTS
+
+Primary Key:
+SubjectCode
+
+Functional Dependencies:
+SubjectCode → SubjectName
+SubjectCode → Credits
+
+========================================
+3) LECTURERS
+
+Primary Key:
+LecturerID
+
+Functional Dependencies:
+LecturerID → LecturerFirstName
+LecturerID → LecturerLastName
+LecturerID → LecturerEmail
+LecturerID → Office
+
+========================================
+4) CLASSES
+
+Primary Key:
+ClassID
+
+Functional Dependencies:
+ClassID → SubjectCode
+ClassID → LecturerID
+ClassID → Semester
+ClassID → Year
+ClassID → MaxCapacity
+
+========================================
+5) ENROLLMENTS
+
+Option A — Using EnrollmentID (single primary key):
+Primary Key:
+EnrollmentID
+
+Functional Dependencies:
+EnrollmentID → StudentID
+EnrollmentID → ClassID
+EnrollmentID → Grade
+EnrollmentID → GradeLetter
+EnrollmentID → Note
+
+Option B — Composite Key (Recommended for academic database design):
+Primary Key:
+(StudentID, ClassID)
+
+Functional Dependencies:
+(StudentID, ClassID) → Grade
+(StudentID, ClassID) → GradeLetter
+(StudentID, ClassID) → Note
+
+========================================

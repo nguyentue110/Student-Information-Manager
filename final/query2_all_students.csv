@@ -1,0 +1,216 @@
+StudentID,FirstName,LastName,Email,Major,ClassID,ClassName,Semester,Year,Grade,GradeLetter,TotalEnrollments
+1,Minh,,minhhang@gmail.com,Academic English,3,Physics I - Group 1,S1,2024,2.26,F,1
+2,Linh,Pham,s2@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,3.51,F,1
+3,Khoa,Le,s3@example.com,Mathematics,2,Intro Programming - Group 1,S1,2024,5.09,F,1
+4,An,Vu,s4@example.com,Computer Science,3,Physics I - Group 1,S1,2024,2.38,F,1
+5,Huy,Dang,s5@example.com,Statistics,2,Intro Programming - Group 1,S1,2024,6.74,D,3
+5,Huy,Dang,s5@example.com,Statistics,3,Physics I - Group 1,S1,2024,7.59,C,3
+5,Huy,Dang,s5@example.com,Statistics,4,Applied Statistics - Group 1,S1,2024,0.83,F,3
+6,Nhi,Lam,s6@example.com,Computer Science,1,Calculus I - Group 1,S1,2024,3.62,F,2
+6,Nhi,Lam,s6@example.com,Computer Science,3,Physics I - Group 1,S1,2024,3.69,F,2
+7,Bao,Ho,s7@example.com,Mathematics,4,Applied Statistics - Group 1,S1,2024,1.37,F,1
+8,Quynh,Nguyen,s8@example.com,English,1,Calculus I - Group 1,S1,2024,4.00,F,2
+8,Quynh,Nguyen,s8@example.com,English,4,Applied Statistics - Group 1,S1,2024,8.22,B,2
+9,Long,Pham,s9@example.com,Physics,1,Calculus I - Group 1,S1,2024,0.09,F,1
+10,Trang,Do,s10@example.com,Computer Science,,,,,,,0
+11,Student1,Test1,student1@example.com,Mathematics,,,,,,,0
+12,Student2,Test2,student2@example.com,Physics,1,Calculus I - Group 1,S1,2024,7.66,C,2
+12,Student2,Test2,student2@example.com,Physics,2,Intro Programming - Group 1,S1,2024,3.26,F,2
+13,Student3,Test3,student3@example.com,Statistics,,,,,,,0
+14,Student4,Test4,student4@example.com,Computer Science,1,Calculus I - Group 1,S1,2024,7.66,C,2
+14,Student4,Test4,student4@example.com,Computer Science,3,Physics I - Group 1,S1,2024,1.83,F,2
+15,Student5,Test5,student5@example.com,Mathematics,3,Physics I - Group 1,S1,2024,8.64,B,2
+15,Student5,Test5,student5@example.com,Mathematics,4,Applied Statistics - Group 1,S1,2024,0.92,F,2
+16,Student6,Test6,student6@example.com,Physics,3,Physics I - Group 1,S1,2024,0.09,F,1
+17,Student7,Test7,student7@example.com,Statistics,,,,,,,0
+18,Student8,Test8,student8@example.com,Computer Science,3,Physics I - Group 1,S1,2024,1.35,F,2
+18,Student8,Test8,student8@example.com,Computer Science,4,Applied Statistics - Group 1,S1,2024,4.75,F,2
+19,Student9,Test9,student9@example.com,Mathematics,1,Calculus I - Group 1,S1,2024,6.38,D,1
+20,Student10,Test10,student10@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,9.93,A,1
+21,Student11,Test11,student11@example.com,Statistics,1,Calculus I - Group 1,S1,2024,0.06,F,1
+22,Student12,Test12,student12@example.com,Computer Science,,,,,,,0
+23,Student13,Test13,student13@example.com,Mathematics,,,,,,,0
+24,Student14,Test14,student14@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,6.35,D,1
+25,Student15,Test15,student15@example.com,Statistics,2,Intro Programming - Group 1,S1,2024,9.94,A,1
+26,Student16,Test16,student16@example.com,Computer Science,4,Applied Statistics - Group 1,S1,2024,8.46,B,1
+27,Student17,Test17,student17@example.com,Mathematics,1,Calculus I - Group 1,S1,2024,4.58,F,1
+28,Student18,Test18,student18@example.com,Physics,2,Intro Programming - Group 1,S1,2024,8.91,B,3
+28,Student18,Test18,student18@example.com,Physics,3,Physics I - Group 1,S1,2024,1.42,F,3
+28,Student18,Test18,student18@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,6.45,D,3
+29,Student19,Test19,student19@example.com,Statistics,,,,,,,0
+30,Student20,Test20,student20@example.com,Computer Science,3,Physics I - Group 1,S1,2024,2.02,F,1
+31,Student21,Test21,student21@example.com,Mathematics,3,Physics I - Group 1,S1,2024,5.53,F,1
+32,Student22,Test22,student22@example.com,Physics,,,,,,,0
+33,Student23,Test23,student23@example.com,Statistics,3,Physics I - Group 1,S1,2024,9.49,A,1
+34,Student24,Test24,student24@example.com,Computer Science,,,,,,,0
+35,Student25,Test25,student25@example.com,Mathematics,,,,,,,0
+36,Student26,Test26,student26@example.com,Physics,,,,,,,0
+37,Student27,Test27,student27@example.com,Statistics,1,Calculus I - Group 1,S1,2024,5.75,F,1
+38,Student28,Test28,student28@example.com,Computer Science,2,Intro Programming - Group 1,S1,2024,6.36,D,2
+38,Student28,Test28,student28@example.com,Computer Science,3,Physics I - Group 1,S1,2024,1.75,F,2
+39,Student29,Test29,student29@example.com,Mathematics,1,Calculus I - Group 1,S1,2024,8.96,B,2
+39,Student29,Test29,student29@example.com,Mathematics,4,Applied Statistics - Group 1,S1,2024,7.34,C,2
+40,Student30,Test30,student30@example.com,Physics,1,Calculus I - Group 1,S1,2024,1.36,F,2
+40,Student30,Test30,student30@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,6.16,D,2
+41,Student31,Test31,student31@example.com,Statistics,1,Calculus I - Group 1,S1,2024,0.23,F,1
+42,Student32,Test32,student32@example.com,Computer Science,,,,,,,0
+43,Student33,Test33,student33@example.com,Mathematics,,,,,,,0
+44,Student34,Test34,student34@example.com,Physics,,,,,,,0
+45,Student35,Test35,student35@example.com,Statistics,,,,,,,0
+46,Student36,Test36,student36@example.com,Computer Science,,,,,,,0
+47,Student37,Test37,student37@example.com,Mathematics,,,,,,,0
+48,Student38,Test38,student38@example.com,Physics,4,Applied Statistics - Group 1,S1,2024,5.39,F,1
+49,Student39,Test39,student39@example.com,Statistics,4,Applied Statistics - Group 1,S1,2024,5.14,F,1
+50,Student40,Test40,student40@example.com,Computer Science,,,,,,,0
+51,Student41,Test41,student41@example.com,Mathematics,,,,,,,0
+52,Student42,Test42,student42@example.com,Physics,,,,,,,0
+53,Student43,Test43,student43@example.com,Statistics,,,,,,,0
+54,Student44,Test44,student44@example.com,Computer Science,,,,,,,0
+55,Student45,Test45,student45@example.com,Mathematics,,,,,,,0
+56,Student46,Test46,student46@example.com,Physics,,,,,,,0
+57,Student47,Test47,student47@example.com,Statistics,,,,,,,0
+58,Student48,Test48,student48@example.com,Computer Science,,,,,,,0
+59,Student49,Test49,student49@example.com,Mathematics,,,,,,,0
+60,Student50,Test50,student50@example.com,Physics,,,,,,,0
+61,Student51,Test51,student51@example.com,Statistics,,,,,,,0
+62,Student52,Test52,student52@example.com,Computer Science,,,,,,,0
+63,Student53,Test53,student53@example.com,Mathematics,,,,,,,0
+64,Student54,Test54,student54@example.com,Physics,,,,,,,0
+65,Student55,Test55,student55@example.com,Statistics,,,,,,,0
+66,Student56,Test56,student56@example.com,Computer Science,,,,,,,0
+67,Student57,Test57,student57@example.com,Mathematics,,,,,,,0
+68,Student58,Test58,student58@example.com,Physics,,,,,,,0
+69,Student59,Test59,student59@example.com,Statistics,,,,,,,0
+70,Student60,Test60,student60@example.com,Computer Science,,,,,,,0
+71,Student61,Test61,student61@example.com,Mathematics,,,,,,,0
+72,Student62,Test62,student62@example.com,Physics,,,,,,,0
+73,Student63,Test63,student63@example.com,Statistics,,,,,,,0
+74,Student64,Test64,student64@example.com,Computer Science,,,,,,,0
+75,Student65,Test65,student65@example.com,Mathematics,,,,,,,0
+76,Student66,Test66,student66@example.com,Physics,,,,,,,0
+77,Student67,Test67,student67@example.com,Statistics,,,,,,,0
+78,Student68,Test68,student68@example.com,Computer Science,,,,,,,0
+79,Student69,Test69,student69@example.com,Mathematics,,,,,,,0
+80,Student70,Test70,student70@example.com,Physics,,,,,,,0
+81,Student71,Test71,student71@example.com,Statistics,,,,,,,0
+82,Student72,Test72,student72@example.com,Computer Science,,,,,,,0
+83,Student73,Test73,student73@example.com,Mathematics,,,,,,,0
+84,Student74,Test74,student74@example.com,Physics,,,,,,,0
+85,Student75,Test75,student75@example.com,Statistics,,,,,,,0
+86,Student76,Test76,student76@example.com,Computer Science,,,,,,,0
+87,Student77,Test77,student77@example.com,Mathematics,,,,,,,0
+88,Student78,Test78,student78@example.com,Physics,,,,,,,0
+89,Student79,Test79,student79@example.com,Statistics,,,,,,,0
+90,Student80,Test80,student80@example.com,Computer Science,,,,,,,0
+91,Student81,Test81,student81@example.com,Mathematics,,,,,,,0
+92,Student82,Test82,student82@example.com,Physics,,,,,,,0
+93,Student83,Test83,student83@example.com,Statistics,,,,,,,0
+94,Student84,Test84,student84@example.com,Computer Science,,,,,,,0
+95,Student85,Test85,student85@example.com,Mathematics,,,,,,,0
+96,Student86,Test86,student86@example.com,Physics,,,,,,,0
+97,Student87,Test87,student87@example.com,Statistics,,,,,,,0
+98,Student88,Test88,student88@example.com,Computer Science,,,,,,,0
+99,Student89,Test89,student89@example.com,Mathematics,,,,,,,0
+100,Student90,Test90,student90@example.com,Physics,,,,,,,0
+101,Student91,Test91,student91@example.com,Statistics,,,,,,,0
+102,Student92,Test92,student92@example.com,Computer Science,,,,,,,0
+103,Student93,Test93,student93@example.com,Mathematics,,,,,,,0
+104,Student94,Test94,student94@example.com,Physics,,,,,,,0
+105,Student95,Test95,student95@example.com,Statistics,,,,,,,0
+106,Student96,Test96,student96@example.com,Computer Science,,,,,,,0
+107,Student97,Test97,student97@example.com,Mathematics,,,,,,,0
+108,Student98,Test98,student98@example.com,Physics,,,,,,,0
+109,Student99,Test99,student99@example.com,Statistics,,,,,,,0
+110,Student100,Test100,student100@example.com,Computer Science,,,,,,,0
+111,Student101,Test101,student101@example.com,Mathematics,,,,,,,0
+112,Student102,Test102,student102@example.com,Physics,,,,,,,0
+113,Student103,Test103,student103@example.com,Statistics,,,,,,,0
+114,Student104,Test104,student104@example.com,Computer Science,,,,,,,0
+115,Student105,Test105,student105@example.com,Mathematics,,,,,,,0
+116,Student106,Test106,student106@example.com,Physics,,,,,,,0
+117,Student107,Test107,student107@example.com,Statistics,,,,,,,0
+118,Student108,Test108,student108@example.com,Computer Science,,,,,,,0
+119,Student109,Test109,student109@example.com,Mathematics,,,,,,,0
+120,Student110,Test110,student110@example.com,Physics,,,,,,,0
+121,Student111,Test111,student111@example.com,Statistics,,,,,,,0
+122,Student112,Test112,student112@example.com,Computer Science,,,,,,,0
+123,Student113,Test113,student113@example.com,Mathematics,,,,,,,0
+124,Student114,Test114,student114@example.com,Physics,,,,,,,0
+125,Student115,Test115,student115@example.com,Statistics,,,,,,,0
+126,Student116,Test116,student116@example.com,Computer Science,,,,,,,0
+127,Student117,Test117,student117@example.com,Mathematics,,,,,,,0
+128,Student118,Test118,student118@example.com,Physics,,,,,,,0
+129,Student119,Test119,student119@example.com,Statistics,,,,,,,0
+130,Student120,Test120,student120@example.com,Computer Science,,,,,,,0
+131,Student121,Test121,student121@example.com,Mathematics,,,,,,,0
+132,Student122,Test122,student122@example.com,Physics,,,,,,,0
+133,Student123,Test123,student123@example.com,Statistics,,,,,,,0
+134,Student124,Test124,student124@example.com,Computer Science,,,,,,,0
+135,Student125,Test125,student125@example.com,Mathematics,,,,,,,0
+136,Student126,Test126,student126@example.com,Physics,,,,,,,0
+137,Student127,Test127,student127@example.com,Statistics,,,,,,,0
+138,Student128,Test128,student128@example.com,Computer Science,,,,,,,0
+139,Student129,Test129,student129@example.com,Mathematics,,,,,,,0
+140,Student130,Test130,student130@example.com,Physics,,,,,,,0
+141,Student131,Test131,student131@example.com,Statistics,,,,,,,0
+142,Student132,Test132,student132@example.com,Computer Science,,,,,,,0
+143,Student133,Test133,student133@example.com,Mathematics,,,,,,,0
+144,Student134,Test134,student134@example.com,Physics,,,,,,,0
+145,Student135,Test135,student135@example.com,Statistics,,,,,,,0
+146,Student136,Test136,student136@example.com,Computer Science,,,,,,,0
+147,Student137,Test137,student137@example.com,Mathematics,,,,,,,0
+148,Student138,Test138,student138@example.com,Physics,,,,,,,0
+149,Student139,Test139,student139@example.com,Statistics,,,,,,,0
+150,Student140,Test140,student140@example.com,Computer Science,,,,,,,0
+151,Student141,Test141,student141@example.com,Mathematics,,,,,,,0
+152,Student142,Test142,student142@example.com,Physics,,,,,,,0
+153,Student143,Test143,student143@example.com,Statistics,,,,,,,0
+154,Student144,Test144,student144@example.com,Computer Science,,,,,,,0
+155,Student145,Test145,student145@example.com,Mathematics,,,,,,,0
+156,Student146,Test146,student146@example.com,Physics,,,,,,,0
+157,Student147,Test147,student147@example.com,Statistics,,,,,,,0
+158,Student148,Test148,student148@example.com,Computer Science,,,,,,,0
+159,Student149,Test149,student149@example.com,Mathematics,,,,,,,0
+160,Student150,Test150,student150@example.com,Physics,,,,,,,0
+161,Student151,Test151,student151@example.com,Statistics,,,,,,,0
+162,Student152,Test152,student152@example.com,Computer Science,,,,,,,0
+163,Student153,Test153,student153@example.com,Mathematics,,,,,,,0
+164,Student154,Test154,student154@example.com,Physics,,,,,,,0
+165,Student155,Test155,student155@example.com,Statistics,,,,,,,0
+166,Student156,Test156,student156@example.com,Computer Science,,,,,,,0
+167,Student157,Test157,student157@example.com,Mathematics,,,,,,,0
+168,Student158,Test158,student158@example.com,Physics,,,,,,,0
+169,Student159,Test159,student159@example.com,Statistics,,,,,,,0
+170,Student160,Test160,student160@example.com,Computer Science,,,,,,,0
+171,Student161,Test161,student161@example.com,Mathematics,,,,,,,0
+172,Student162,Test162,student162@example.com,Physics,,,,,,,0
+173,Student163,Test163,student163@example.com,Statistics,,,,,,,0
+174,Student164,Test164,student164@example.com,Computer Science,,,,,,,0
+175,Student165,Test165,student165@example.com,Mathematics,,,,,,,0
+176,Student166,Test166,student166@example.com,Physics,,,,,,,0
+177,Student167,Test167,student167@example.com,Statistics,,,,,,,0
+178,Student168,Test168,student168@example.com,Computer Science,,,,,,,0
+179,Student169,Test169,student169@example.com,Mathematics,,,,,,,0
+180,Student170,Test170,student170@example.com,Physics,,,,,,,0
+181,Student171,Test171,student171@example.com,Statistics,,,,,,,0
+182,Student172,Test172,student172@example.com,Computer Science,,,,,,,0
+183,Student173,Test173,student173@example.com,Mathematics,,,,,,,0
+184,Student174,Test174,student174@example.com,Physics,,,,,,,0
+185,Student175,Test175,student175@example.com,Statistics,,,,,,,0
+186,Student176,Test176,student176@example.com,Computer Science,,,,,,,0
+187,Student177,Test177,student177@example.com,Mathematics,,,,,,,0
+188,Student178,Test178,student178@example.com,Physics,,,,,,,0
+189,Student179,Test179,student179@example.com,Statistics,,,,,,,0
+190,Student180,Test180,student180@example.com,Computer Science,,,,,,,0
+191,Student181,Test181,student181@example.com,Mathematics,,,,,,,0
+192,Student182,Test182,student182@example.com,Physics,,,,,,,0
+193,Student183,Test183,student183@example.com,Statistics,,,,,,,0
+194,Student184,Test184,student184@example.com,Computer Science,,,,,,,0
+195,Student185,Test185,student185@example.com,Mathematics,,,,,,,0
+196,Student186,Test186,student186@example.com,Physics,,,,,,,0
+197,Student187,Test187,student187@example.com,Statistics,,,,,,,0
+198,Student188,Test188,student188@example.com,Computer Science,,,,,,,0
+199,Student189,Test189,student189@example.com,Mathematics,,,,,,,0
+200,Student190,Test190,student190@example.com,Physics,,,,,,,0
+204,de,er,hi@gmail.com,New Item,,,,,,,0
+205,hello,world,e@gmail.com,New Item,,,,,,,0

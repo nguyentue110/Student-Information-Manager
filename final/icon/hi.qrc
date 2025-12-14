@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>teacherssmall1.png</file>
+    <file>image_processing20210619-27954-vhvgzs.png</file>
+    <file>studentssmall1.png</file>
+    <file>dashboard2.png</file>
+    <file>add student.png</file>
+    <file>search.png</file>
+    <file>logosmall1.png</file>
+    <file>institutionsmall1.png</file>
+    <file>logo.png</file>
+    <file>OIP.webp</file>
+    <file>class.webp</file>
+    <file>lecturer.webp</file>
+    <file>student2.png</file>
+    <file>student.png</file>
+    <file>subject.png</file>
+  </qresource>
+</RCC>

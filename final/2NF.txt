@@ -1,0 +1,132 @@
+========================================
+2NF — Second Normal Form (Final Version)
+========================================
+
+A relation is in 2NF if:
+    1. It is already in 1NF
+    2. It has no partial dependency
+       (no non-key attribute depends on only part of a composite key)
+
+Below is the evaluation of each table from the 1NF design,
+including Primary Keys (PK), Foreign Keys (FK), and dependency analysis.
+
+----------------------------------------
+1) STUDENTS
+----------------------------------------
+Primary Key (PK):
+    StudentID
+
+Foreign Keys (FK):
+    None
+
+Reasoning:
+    • PK is a single attribute.
+    • No composite key → no possibility of partial dependency.
+
+Conclusion:
+    STUDENTS is already in 2NF.
+
+
+----------------------------------------
+2) SUBJECTS
+----------------------------------------
+Primary Key (PK):
+    SubjectCode
+
+Foreign Keys (FK):
+    None
+
+Reasoning:
+    • PK is a single attribute.
+    • All non-key attributes (SubjectName, Credits) depend fully on SubjectCode.
+
+Conclusion:
+    SUBJECTS is in 2NF.
+
+
+----------------------------------------
+3) LECTURERS
+----------------------------------------
+Primary Key (PK):
+    LecturerID
+
+Foreign Keys (FK):
+    None
+
+Reasoning:
+    • PK is a single attribute.
+    • No partial dependency can exist.
+
+Conclusion:
+    LECTURERS is in 2NF.
+
+
+----------------------------------------
+4) CLASSES
+----------------------------------------
+Primary Key (PK):
+    ClassID
+
+Foreign Keys (FK):
+    SubjectCode → SUBJECTS(SubjectCode)
+    LecturerID → LECTURERS(LecturerID)
+
+Reasoning:
+    • PK is a single attribute (ClassID).
+    • All descriptive attributes (Semester, Year, MaxCapacity)
+      depend fully on ClassID.
+
+Conclusion:
+    CLASSES is in 2NF.
+
+
+----------------------------------------
+5) ENROLLMENTS
+----------------------------------------
+Two possible key designs:
+
+Option A — Surrogate Key
+----------------------------------------
+Primary Key (PK):
+    EnrollmentID
+
+Foreign Keys (FK):
+    StudentID → STUDENTS(StudentID)
+    ClassID → CLASSES(ClassID)
+
+Analysis:
+    • PK is a single attribute → cannot have partial dependency.
+    • All non-key attributes depend fully on EnrollmentID.
+
+Conclusion:
+    ENROLLMENTS (Option A) satisfies 2NF.
+
+
+Option B — Composite Key
+----------------------------------------
+Primary Key (PK):
+    (StudentID, ClassID)
+
+Foreign Keys (FK):
+    StudentID → STUDENTS(StudentID)
+    ClassID → CLASSES(ClassID)
+
+Functional Dependencies:
+    (StudentID, ClassID) → Grade
+    (StudentID, ClassID) → GradeLetter
+    (StudentID, ClassID) → Note
+
+Analysis:
+    • All non-key attributes depend on *both* StudentID and ClassID.
+    • No non-key attribute depends on only StudentID or only ClassID.
+
+Conclusion:
+    ENROLLMENTS (Option B) also satisfies 2NF.
+
+
+----------------------------------------
+FINAL RESULT
+----------------------------------------
+All relations in the 1NF design satisfy the definition of 2NF.
+No tables require decomposition at this stage.
+Both key designs for ENROLLMENTS are valid in 2NF.

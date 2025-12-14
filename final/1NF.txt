@@ -1,0 +1,145 @@
+========================================
+1NF — First Normal Form (Premium Version)
+========================================
+
+A relation is in 1NF if:
+    • All attributes contain atomic (indivisible) values
+    • There are no repeating groups
+    • Each table represents a single entity type
+
+In this step, the original UNF data has been separated into clean entity tables.
+Primary Keys (PK) and Foreign Keys (FK) are identified for each relation.
+
+----------------------------------------
+1) STUDENTS
+----------------------------------------
+Attributes:
+    StudentID
+    FirstName
+    LastName
+    DOB
+    Gender
+    Address
+    Phone
+    Email
+    EnrollmentYear
+    Major
+
+Primary Key (PK):
+    StudentID
+
+Foreign Keys (FK):
+    None
+
+Justification:
+    • StudentID uniquely identifies each student.
+    • All attributes describe only that student.
+    • No repeating groups; all values are atomic.
+
+Conclusion:
+    STUDENTS satisfies 1NF.
+
+
+----------------------------------------
+2) SUBJECTS
+----------------------------------------
+Attributes:
+    SubjectCode
+    SubjectName
+    Credits
+
+Primary Key (PK):
+    SubjectCode
+
+Foreign Keys (FK):
+    None
+
+Justification:
+    • Each subject is uniquely identified by SubjectCode.
+    • SubjectName and Credits are atomic values.
+    • No multi-valued attributes.
+
+Conclusion:
+    SUBJECTS satisfies 1NF.
+
+
+----------------------------------------
+3) LECTURERS
+----------------------------------------
+Attributes:
+    LecturerID
+    LecturerFirstName
+    LecturerLastName
+    LecturerEmail
+    Office
+
+Primary Key (PK):
+    LecturerID
+
+Foreign Keys (FK):
+    None
+
+Justification:
+    • LecturerID uniquely identifies each lecturer.
+    • All columns describe lecturer attributes and are atomic.
+
+Conclusion:
+    LECTURERS satisfies 1NF.
+
+
+----------------------------------------
+4) CLASSES
+----------------------------------------
+Attributes:
+    ClassID
+    SubjectCode
+    LecturerID
+    Semester
+    Year
+    MaxCapacity
+
+Primary Key (PK):
+    ClassID
+
+Foreign Keys (FK):
+    SubjectCode → SUBJECTS(SubjectCode)
+    LecturerID → LECTURERS(LecturerID)
+
+Justification:
+    • ClassID uniquely identifies each scheduled class.
+    • Each class must be associated with exactly one subject and one lecturer,
+      establishing two foreign key relationships.
+    • All fields contain atomic values.
+
+Conclusion:
+    CLASSES satisfies 1NF.
+
+
+----------------------------------------
+5) ENROLLMENTS
+----------------------------------------
+Attributes:
+    EnrollmentID
+    StudentID
+    ClassID
+    Grade
+    GradeLetter
+    Note
+
+Primary Key Options:
+    Option A (recommended for 1NF simplicity):
+        EnrollmentID
+    Option B:
+        (StudentID, ClassID)
+
+Foreign Keys (FK):
+    StudentID → STUDENTS(StudentID)
+    ClassID → CLASSES(ClassID)
+
+Justification:
+    • Each enrollment links one student to one class.
+    • Grade-related attributes are atomic.
+    • No repeating groups.
+
+Conclusion:
+    ENROLLMENTS satisfies 1NF.

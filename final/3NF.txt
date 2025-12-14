@@ -1,0 +1,119 @@
+========================================
+3NF — Third Normal Form (Premium Version)
+========================================
+
+Requirement for 3NF:
+A relation is in 3NF if:
+    1. It is already in 2NF
+    2. It has NO transitive dependency
+       (i.e., no non-key attribute depends on another non-key attribute)
+
+At this stage, we verify:
+    • Each table’s PK
+    • Whether any attribute depends on another non-key attribute
+    • Whether decomposition is needed
+
+----------------------------------------
+1) STUDENTS
+----------------------------------------
+Primary Key:
+    StudentID
+
+Attributes:
+    FirstName, LastName, DOB, Gender, Address, Phone, Email,
+    EnrollmentYear, Major
+
+Analysis:
+    • All attributes depend directly on StudentID.
+    • No attribute depends on another non-key attribute.
+      (Example: Email does NOT determine Address, Major does NOT determine Year, etc.)
+
+Conclusion:
+    STUDENTS satisfies 3NF.
+
+
+----------------------------------------
+2) SUBJECTS
+----------------------------------------
+Primary Key:
+    SubjectCode
+
+Attributes:
+    SubjectName, Credits
+
+Analysis:
+    • No attribute depends on another non-key attribute.
+    • Everything depends only on the PK.
+
+Conclusion:
+    SUBJECTS satisfies 3NF.
+
+
+----------------------------------------
+3) LECTURERS
+----------------------------------------
+Primary Key:
+    LecturerID
+
+Attributes:
+    LecturerFirstName, LecturerLastName, LecturerEmail, Office
+
+Analysis:
+    • All attributes depend solely on LecturerID.
+    • No transitive dependencies.
+    • Email does not determine Office, etc.
+
+Conclusion:
+    LECTURERS satisfies 3NF.
+
+
+----------------------------------------
+4) CLASSES
+----------------------------------------
+Primary Key:
+    ClassID
+
+Attributes:
+    SubjectCode (FK)
+    LecturerID (FK)
+    Semester
+    Year
+    MaxCapacity
+
+Analysis:
+    • SubjectCode → SUBJECTS table
+    • LecturerID → LECTURERS table
+    • But inside CLASSES itself, no attribute depends on SubjectCode or LecturerID.
+      (e.g., MaxCapacity is not determined by SubjectCode or LecturerID)
+
+Conclusion:
+    CLASSES satisfies 3NF.
+
+
+----------------------------------------
+5) ENROLLMENTS
+----------------------------------------
+Primary Key Options:
+    Option A: EnrollmentID (surrogate key)
+    Option B: Composite key (StudentID, ClassID)
+
+Attributes:
+    Grade, GradeLetter, Note
+
+Analysis:
+    • All non-key attributes depend on the PK.
+    • No attribute depends on another non-key attribute.
+      (e.g., Grade does NOT determine Note, GradeLetter does NOT determine Grade)
+
+Conclusion:
+    ENROLLMENTS satisfies 3NF.
+
+
+----------------------------------------
+FINAL RESULT
+----------------------------------------
+All relations from the 2NF design satisfy 3NF.
+
+No further decomposition is required.
+The schema is now fully normalized and ready for transformation
+into the final relational model (ERD → schema.sql).

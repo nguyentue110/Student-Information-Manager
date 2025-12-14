@@ -1,0 +1,97 @@
+========================================
+UNF — Unnormalized Form (Premium Version)
+========================================
+
+The Unnormalized Form (UNF) contains all raw attributes collected from the system
+before any normalization rules are applied.
+
+In this stage:
+    • Data may contain repeating groups
+    • Multiple entities may be mixed together
+    • No structure, no normalization yet
+    • We only identify potential Primary Keys (PK) and Foreign Keys (FK)
+
+----------------------------------------
+Raw Attributes Collected from the System
+----------------------------------------
+
+STUDENT Information (mixed in UNF):
+    StudentID
+    FirstName
+    LastName
+    DOB
+    Gender
+    Address
+    Phone
+    Email
+    EnrollmentYear
+    Major
+
+SUBJECT Information:
+    SubjectCode
+    SubjectName
+    Credits
+
+LECTURER Information:
+    LecturerID
+    LecturerFirstName
+    LecturerLastName
+    LecturerEmail
+    Office
+
+CLASS Information:
+    ClassID
+    SubjectCode
+    LecturerID
+    Semester
+    Year
+    MaxCapacity
+
+ENROLLMENT / GRADE Information:
+    EnrollmentID
+    StudentID
+    ClassID
+    Grade
+    GradeLetter
+    Note
+
+
+----------------------------------------
+Identifying Candidate Keys (PK) in UNF
+----------------------------------------
+STUDENT:
+    PK candidate: StudentID
+SUBJECT:
+    PK candidate: SubjectCode
+LECTURER:
+    PK candidate: LecturerID
+CLASS:
+    PK candidate: ClassID
+ENROLLMENT:
+    PK candidate (Option A): EnrollmentID
+    PK candidate (Option B): (StudentID, ClassID)
+
+
+----------------------------------------
+Identifying Candidate Foreign Keys (FK)
+----------------------------------------
+Because UNF mixes multiple entities, these are only *potential* FK relationships:
+
+    StudentID     → STUDENT.StudentID
+    SubjectCode   → SUBJECT.SubjectCode
+    LecturerID    → LECTURER.LecturerID
+    ClassID       → CLASS.ClassID
+
+These FKs will be formally created only after data is organized into relations (from 1NF onward).
+
+
+----------------------------------------
+Conclusion
+----------------------------------------
+The UNF stage only gathers all raw attributes and identifies potential keys.
+No normalization or decomposition happens here.
+
+The next step (1NF) will:
+    • Separate entities into distinct tables
+    • Ensure atomic values
+    • Assign proper PK/FK relationships

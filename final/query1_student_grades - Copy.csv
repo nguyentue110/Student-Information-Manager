@@ -1,0 +1,46 @@
+StudentID,FirstName,LastName,SubjectCode,SubjectName,ClassID,ClassName,Semester,Year,Grade,GradeLetter
+5,Huy,Dang,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,0.83,F
+7,Bao,Ho,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,1.37,F
+8,Quynh,Nguyen,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,8.22,B
+2,Linh,Pham,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,3.51,F
+20,Student10,Test10,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,9.93,A
+24,Student14,Test14,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,6.35,D
+26,Student16,Test16,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,8.46,B
+28,Student18,Test18,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,6.45,D
+39,Student29,Test29,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,7.34,C
+40,Student30,Test30,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,6.16,D
+48,Student38,Test38,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,5.39,F
+49,Student39,Test39,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,5.14,F
+15,Student5,Test5,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,0.92,F
+18,Student8,Test8,STA202,Applied Statistics,4,Applied Statistics - Group 1,S1,2024,4.75,F
+6,Nhi,Lam,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,3.62,F
+8,Quynh,Nguyen,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,4.00,F
+9,Long,Pham,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,0.09,F
+21,Student11,Test11,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,0.06,F
+27,Student17,Test17,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,4.58,F
+12,Student2,Test2,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,7.66,C
+37,Student27,Test27,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,5.75,F
+39,Student29,Test29,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,8.96,B
+40,Student30,Test30,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,1.36,F
+41,Student31,Test31,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,0.23,F
+14,Student4,Test4,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,7.66,C
+19,Student9,Test9,MATH101,Calculus I,1,Calculus I - Group 1,S1,2024,6.38,D
+5,Huy,Dang,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,6.74,D
+3,Khoa,Le,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,5.09,F
+25,Student15,Test15,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,9.94,A
+28,Student18,Test18,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,8.91,B
+12,Student2,Test2,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,3.26,F
+38,Student28,Test28,CS101,Introduction to Programming,2,Intro Programming - Group 1,S1,2024,6.36,D
+1,Minh,,PHY101,Physics I,3,Physics I - Group 1,S1,2024,2.26,F
+5,Huy,Dang,PHY101,Physics I,3,Physics I - Group 1,S1,2024,7.59,C
+6,Nhi,Lam,PHY101,Physics I,3,Physics I - Group 1,S1,2024,3.69,F
+28,Student18,Test18,PHY101,Physics I,3,Physics I - Group 1,S1,2024,1.42,F
+30,Student20,Test20,PHY101,Physics I,3,Physics I - Group 1,S1,2024,2.02,F
+31,Student21,Test21,PHY101,Physics I,3,Physics I - Group 1,S1,2024,5.53,F
+33,Student23,Test23,PHY101,Physics I,3,Physics I - Group 1,S1,2024,9.49,A
+38,Student28,Test28,PHY101,Physics I,3,Physics I - Group 1,S1,2024,1.75,F
+14,Student4,Test4,PHY101,Physics I,3,Physics I - Group 1,S1,2024,1.83,F
+15,Student5,Test5,PHY101,Physics I,3,Physics I - Group 1,S1,2024,8.64,B
+16,Student6,Test6,PHY101,Physics I,3,Physics I - Group 1,S1,2024,0.09,F
+18,Student8,Test8,PHY101,Physics I,3,Physics I - Group 1,S1,2024,1.35,F
+4,An,Vu,PHY101,Physics I,3,Physics I - Group 1,S1,2024,2.38,F
