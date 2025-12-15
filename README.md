@@ -93,11 +93,31 @@ The GUI window will open after a successful database connection.
 ## 📸 Screenshots
 
 - Dashboard overview
-
-- Student management interface  
-- Enrollment management  
-- Error handling examples  
-
+![Dashboard](Screenshots/1.jpg)
+- Enrollment Management Screen
+![Dashboard](Screenshots/2.jpg)
+- Student Management Interface
+![Dashboard](Screenshots/3.jpg)  
+- Subject Management Screen 
+![Dashboard](Screenshots/4.jpg)
+- Lecturer Management Screen
+![Dashboard](Screenshots/5.jpg)
+- Class Management Interface
+![Dashboard](Screenshots/6.jpg)
+- Search Functionality in the GUI
+![Dashboard](Screenshots/z7317981754873_eacf3a757b2f1c358c495185da81c279.jpg)
+- Query 1: Student Grades by Subject (INNER JOIN)
+![Dashboard](Screenshots/Q1.jpg)
+- Query 2: All Students Including Without Grades (LEFT JOIN)
+![Dashboard](Screenshots/Q2.jpg)
+- Query 3: Complete Enrollment Info (Multi-table JOIN, 5 Tables)
+![Dashboard](Screenshots/Q3.jpg)
+- Query 4: Students Above Global Average
+![Dashboard](Screenshots/Q4.jpg)
+- Delete Error: No object selected
+![Dashboard](Screenshots/z7317974792445_e908de87233197eef33ea98d0ecacba4.jpg)
+- Edit Error: No object selected
+![Dashboard](Screenshots/z7317974275824_7101b854a764b67111cfc659cc429a4f.jpg)
 (See the `assets/` folder for full screenshots.)
 
 ---
