@@ -123,6 +123,8 @@ The GUI window will open after a successful database connection.
 ![Dashboard](Screenshots/z7317974275824_7101b854a764b67111cfc659cc429a4f.jpg)
 
 ---
+## 🎥 Video
+Watch the project video here: https://youtu.be/otEINc4SCBs?si=1kl4qNXjEQvwuGCG
 
 ## 👥 Authors
 
