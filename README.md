@@ -71,21 +71,17 @@ Primary keys, foreign keys, and constraints ensure data consistency and referent
 - MySQL Server 8.0 or higher
 
 ### Setup Instructions
-Clone the repository using  
-`git clone https://github.com/YOUR_USERNAME/student-information-manager.git`  
-then move into the project directory with  
-`cd student-information-manager`.
+1. Ensure PyQt6, PyQt6-Charts, and mysql-connector-python are installed using  
+   `pip install PyQt6 PyQt6-Charts mysql-connector-python`.
 
-Install dependencies using  
-`pip install -r requirements.txt`.
+2. Make sure the database has been created by running `schema.sql` and `seed.sql` in your MySQL client.
 
-Open MySQL Workbench (or another MySQL client), run `schema.sql` to create tables and constraints, then run `seed.sql` to insert sample data.  
-Update database credentials in `app/db/connection.py`.
+3. Update the MySQL password and connection settings in `db_connection.py`.
 
-Finally, start the application with  
-`python main.py`.
+4. Finally, start the application with  
+   `python main.py`.
 
-If the database connection is successful, the application will start normally.
+If the database connection is configured correctly, the application will start normally.
 
 ---
 
