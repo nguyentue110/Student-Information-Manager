@@ -71,15 +71,43 @@ Primary keys, foreign keys, and constraints ensure data consistency and referent
 - MySQL Server 8.0 or higher
 
 ### Setup Instructions
-1. Ensure PyQt6, PyQt6-Charts, and mysql-connector-python are installed using  
-   `pip install PyQt6 PyQt6-Charts mysql-connector-python`.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/student-management-system.git
+cd student-management-system
+```
 
-2. Make sure the database has been created by running `schema.sql` and `seed.sql` in your MySQL client.
+2. Install required Python packages:
+```bash
+pip install PyQt6 PyQt6-Charts mysql-connector-python
+```
 
-3. Update the MySQL password and connection settings in `db_connection.py`.
+3. Set up the MySQL database:
+```bash
+# Login to MySQL
+mysql -u root -p
 
-4. Finally, start the application with  
-   `python main.py`.
+# Create database schema
+source schema.sql
+
+# Insert sample data
+source seed.sql
+```
+
+4. Configure the database connection by editing `db_connection.py`:
+```python
+self._pool = pooling.MySQLConnectionPool(
+    host='localhost',
+    user='root',
+    password='YOUR_PASSWORD_HERE',  # Change this
+    database='student_management'
+)
+```
+
+5. Run the application:
+```bash
+python main.py
+```
 
 If the database connection is configured correctly, the application will start normally.
 
