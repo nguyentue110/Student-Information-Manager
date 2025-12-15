@@ -41,10 +41,10 @@ This project demonstrates:
 ## 🛠 Technology Stack
 
 - Programming Language: **Python 3.10+**
-- GUI Framework: **Tkinter**
+- Interface: **Command-line (CLI)**
 - Database: **MySQL 8.0+**
 - Database Connector: **mysql-connector-python**
-- Architecture: **Layered / MVC-inspired**
+- Application Architecture: **Layered architecture**
 
 ---
 
