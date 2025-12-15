@@ -8,7 +8,7 @@
 A desktop-based academic management system developed for the **Introduction to Databases** course at **National Economics University (NEU)**.  
 The project covers the full workflow from database normalization (**UNF → 3NF**) to MySQL implementation and a Python GUI application.
 
-![Dashboard](1.jpg)
+![Dashboard](Screenshots/1.jpg)
 
 ---
 
