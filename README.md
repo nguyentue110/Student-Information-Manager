@@ -85,7 +85,7 @@ Update database credentials in `app/db/connection.py`.
 Finally, start the application with  
 `python main.py`.
 
-The GUI window will open after a successful database connection.
+If the database connection is successful, the application will start normally.
 
 ---
 
