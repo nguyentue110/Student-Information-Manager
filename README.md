@@ -1,7 +1,6 @@
 # Student Information Manager 🎓
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-green.svg)
 ![Database](https://img.shields.io/badge/Database-MySQL-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
