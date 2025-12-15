@@ -8,7 +8,7 @@
 A desktop-based academic management system developed for the **Introduction to Databases** course at **National Economics University (NEU)**.  
 The project covers the full workflow from database normalization (**UNF → 3NF**) to MySQL implementation and a Python GUI application.
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](GUI Screenshots/1.jpg)
 
 ---
 
@@ -52,7 +52,7 @@ This project demonstrates:
 
 The database schema is rigorously normalized to **Third Normal Form (3NF)** to eliminate redundancy and prevent update anomalies.
 
-![ERD](assets/erd.png)
+![ERD](z7298783998878_a7a1ee8647414ce112dfa9b9559e9236.jpg)
 
 Core tables:
 - Students
@@ -92,7 +92,8 @@ The GUI window will open after a successful database connection.
 
 ## 📸 Screenshots
 
-- Dashboard overview  
+- Dashboard overview
+
 - Student management interface  
 - Enrollment management  
 - Error handling examples  
