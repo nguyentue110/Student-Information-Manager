@@ -122,8 +122,6 @@ The GUI window will open after a successful database connection.
 
 ![Dashboard](Screenshots/z7317974275824_7101b854a764b67111cfc659cc429a4f.jpg)
 
-(See the `assets/` folder for full screenshots.)
-
 ---
 
 ## 👥 Authors
